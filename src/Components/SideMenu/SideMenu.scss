@@ -1,0 +1,29 @@
+@import "../../Assets/Theme/_var.scss";
+
+.sidemenu-canvas {
+  &.offcanvas {
+    max-width: 24rem;
+
+    .offcanvas-title {
+      font-size: 2rem;
+    }
+  }
+}
+
+.sidemenu-list {
+  li {
+    margin-bottom: 0.5rem;
+    a {
+      display: block;
+      padding: 1rem;
+      font-size: 1.4rem;
+      color: $black;
+      font-weight: 400;
+
+      &:hover {
+        background-color: $baseColor;
+        color: $white;
+      }
+    }
+  }
+}

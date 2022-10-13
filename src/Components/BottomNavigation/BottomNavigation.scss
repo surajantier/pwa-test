@@ -1,0 +1,51 @@
+@import "../../Assets/Theme/_var.scss";
+
+.bottom-navigation {
+  padding: 1.5rem 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $background-2;
+  border-radius: 2.4rem 2.4rem 0 0;
+
+  .nav-pills {
+    &.nav {
+      justify-content: space-between;
+      .nav-item {
+        .nav-link {
+          background: transparent;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding: 0.2rem;
+          font-size: 0.9rem;
+          min-width: 5.2rem;
+          height: 5.2rem;
+          max-width: 5.2rem;
+          border-radius: 100%;
+          color: $black;
+          svg {
+            width: 1.6rem;
+            height: 1.6rem;
+            margin-bottom: 0.5rem;
+          }
+          span {
+            line-height: 1.5rem;
+          }
+
+          &.active {
+            background: transparent;
+            color: $baseColor;
+            svg {
+              path {
+                fill: $baseColor;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

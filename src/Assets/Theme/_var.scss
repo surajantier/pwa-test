@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$baseFont: "Poppins", sans-serif;
+$baseFont2: "Oswald", sans-serif;
+
+$background: #fdfdfd;
+$background-2: #f0f0f0;
+$background-3: #f4f4f4;
+$baseColor: #fe4c45;
+$white: #ffffff;
+$grey: #5c5b63;
+$black: #212030;
+
+$fw400: 400;
+$fw500: 500;
+$fw600: 600;
+$fw700: 700;
+
+$gradient: linear-gradient(
+  180deg,
+  rgba(254, 0, 62, 0.3) 0%,
+  rgba(254, 0, 62, 0) 100%
+); ;

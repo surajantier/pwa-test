@@ -1,0 +1,21 @@
+@import "../../Assets/Theme/_var.scss";
+
+.home-page {
+  font-size: 1.6rem;
+  height: 100vh;
+  background: $background;
+  overflow: hidden;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  &__main {
+    padding: 2rem 1rem;
+    height: 100%;
+  }
+}
