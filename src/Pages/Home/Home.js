@@ -6,7 +6,11 @@ import {
   ShareIcon,
   TagIcon,
 } from "../../Assets/SvgIcons/SvgIcons";
-import { BottomNavigation, HeaderNavigation } from "../../Components";
+import {
+  BottomNavigation,
+  HeaderNavigation,
+  CarouselSection,
+} from "../../Components";
 import { TabItem } from "../../Components/BottomNavigation/BottomNavigation";
 import "./Home.scss";
 
@@ -14,10 +18,12 @@ const Home = () => {
   return (
     <div className="home-page">
       <HeaderNavigation />
-      <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+      <Tab.Container id="left-tabs-example" defaultActiveKey="home">
         <div className="home-page__main">
           <Tab.Content>
-            <Tab.Pane eventKey="home">home</Tab.Pane>
+            <Tab.Pane eventKey="home">
+              <CarouselSection />
+            </Tab.Pane>
             <Tab.Pane eventKey="featured">featured</Tab.Pane>
             <Tab.Pane eventKey="share">share</Tab.Pane>
             <Tab.Pane eventKey="info">info</Tab.Pane>

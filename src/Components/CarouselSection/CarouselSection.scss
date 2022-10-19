@@ -1,0 +1,16 @@
+@import "../../Assets/Theme/_var.scss";
+
+.commn-slider {
+  &.slick-slider {
+  }
+
+  &__item {
+    padding: 1.5rem;
+    border-radius: 1.4rem;
+    background-color: aliceblue;
+    height: 15rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+}
