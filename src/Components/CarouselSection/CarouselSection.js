@@ -4,6 +4,7 @@ import "./CarouselSection.scss";
 const CarouselSection = () => {
   const settings = {
     dots: true,
+    arrows: false,
     infinite: true,
     autoplay: true,
     speed: 500,

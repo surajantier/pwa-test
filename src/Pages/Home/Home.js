@@ -12,6 +12,7 @@ import {
   CarouselSection,
 } from "../../Components";
 import { TabItem } from "../../Components/BottomNavigation/BottomNavigation";
+import GridContainer from "../../Components/GridContainer/GridContainer";
 import "./Home.scss";
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
           <Tab.Content>
             <Tab.Pane eventKey="home">
               <CarouselSection />
+              <GridContainer />
             </Tab.Pane>
             <Tab.Pane eventKey="featured">featured</Tab.Pane>
             <Tab.Pane eventKey="share">share</Tab.Pane>

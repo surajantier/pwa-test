@@ -1,0 +1,24 @@
+@import "../../Assets/Theme/_var.scss";
+
+.grid-container {
+  padding-top: 3.5rem;
+
+  .grid-row {
+    padding: 2rem 0;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.grid-card {
+  text-align: center;
+  background-color: $white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1.5rem;
+  flex: 0 0 30%;
+  p {
+    font-size: 1.2rem;
+  }
+}

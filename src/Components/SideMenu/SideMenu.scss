@@ -1,5 +1,11 @@
 @import "../../Assets/Theme/_var.scss";
 
+.sidemenu-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .sidemenu-canvas {
   &.offcanvas {
     max-width: 24rem;

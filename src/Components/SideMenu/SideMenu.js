@@ -11,7 +11,7 @@ const SideMenu = () => {
 
   return (
     <>
-      <span onClick={handleShow}>
+      <span onClick={handleShow} className="sidemenu-btn">
         <MenuIcon />
       </span>
 
