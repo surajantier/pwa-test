@@ -26,7 +26,7 @@ const Home = () => {
               <CarouselSection />
               <GridContainer />
             </Tab.Pane>
-            <Tab.Pane eventKey="featured">featured</Tab.Pane>
+            <Tab.Pane eventKey="featured">featured jbkk;;;;;;;;;;;;;;;;;;;;;;;;;gkhvuyujv</Tab.Pane>
             <Tab.Pane eventKey="share">share</Tab.Pane>
             <Tab.Pane eventKey="info">info</Tab.Pane>
           </Tab.Content>
